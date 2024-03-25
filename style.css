@@ -1,0 +1,84 @@
+@font-face {
+    font-family: font_slnt;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: font_slnt;
+}
+
+
+body{
+    background: #161616;
+    text-align: center;
+}
+.container {
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(20px); 
+    background-color: rgba(255, 255, 255, 0.062); 
+    border-radius: 1em;
+    width: 25%;
+    height: 550px;
+}
+.logo{
+    padding-top:10%;
+}
+.logo img{
+    width: 25%;
+    border-radius: 50%;
+}
+.titles{
+    margin-top: 20px;
+}
+.Name{
+    font-size: 24px;
+    color: #fefefe;
+    font-weight: 500;
+}
+.location{
+    font-size: 14px;
+    color: #c4f82a;
+    font-weight: 500;
+    margin-top: 7px;
+}
+.quote {
+    font-size: 13px;
+    color: #fefefe;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.links{
+    display: inline-grid;
+    margin-top: 15px;
+}
+a{
+    backdrop-filter: blur(20px); 
+    background-color: rgba(255, 255, 255, 0.062); 
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: 400;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 2.5;
+}
+a:hover{
+    background: #d9ff00;
+    color: #161616;
+    font-weight: 700;
+}
+
+.attribution{
+    display: unset;
+    width: 10%;
+    color: #fefefe;
+    font-size:12px; 
+}
